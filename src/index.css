@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headerHover {
+    @apply px-2 h-[80%] flex items-center rounded-sm border border-transparent hover:border-white hover:cursor-pointer duration-100;
+  }
+
+  .footerLink {
+    @apply hover:underline text-sm hover:text-gray-100 cursor-pointer mb-2 duration-150;
+  }
+
+  .footerBottomTitle {
+    @apply w-24 font-semibold text-[12px] group-hover:underline text-[#DDD] leading-3 mb-[2px];
+  }
+
+  .footerBottomText {
+    @apply w-24 tracking-tight text-[12px] text-[#999] group-hover:underline leading-3;
+  }
+
+  /* .link {
+    @apply cursor-pointer hover:underline;
+  }
+  .button {
+    @apply p-2 bg-yellow-400 rounded-full cursor-pointer hover:bg-yellow-500 active:bg-yellow-700 font-titleFont font-semibold absolute w-4/5  bottom-4;
+  }
+  .footerLink {
+    @apply hover:underline text-footerFont hover:text-gray-100 cursor-pointer mb-2 duration-150;
+  }
+  .footerBottomTitle {
+    @apply font-semibold text-xs group-hover:underline text-gray-200;
+  }
+  .footerBottomText {
+    @apply text-xs text-gray-400 group-hover:underline;
+  } */
+}
